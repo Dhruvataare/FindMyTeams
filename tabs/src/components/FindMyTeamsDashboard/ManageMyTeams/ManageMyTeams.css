@@ -1,0 +1,71 @@
+.UsersAlert {
+    height: 3rem;
+    left: 42%;
+    position: absolute !important;
+}
+.ManageTeamsContainer {
+    min-height: 100vh;
+}
+.ManageTeamsContainer .ManageTeamsTopMargin {
+    height: 1rem;
+}
+.ManageTeamsContainer .ManageTeams {
+    max-width: calc(100vw - 4rem);
+    margin: auto;
+}
+.ManageTeamsHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.ManageTeamsHeader > div:first-child {
+    width: 80%;
+}
+.ManageTeamsHeader > div:first-child > h1 > span:last-child {
+    font-size: 0.6em;
+    color: black;
+}
+.ManageTeamsBody {
+    display: flex;
+}
+.ManageTeamsBody .ManageTeamsTable {
+    width: calc(100vw - 4rem);
+}
+.ManageTeamsBody .ManageTeamsTable .UsersAlert{
+    z-index: 100;
+}
+.ManageTeamsBody .ManageTeamsTable .ManageTeamsTableHeader {
+    min-height: 2.5rem;
+    padding: 0;
+    border-radius: 0.6rem 0.6rem 0 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.ManageTeamsBody .ManageTeamsTable .ManageTeamsTableHeader button {
+    border: none;
+}
+.ManageTeamsBody .ManageTeamsTable .ManageTeamsTableHeader > div:first-child {
+    width: 100%;
+}
+.ManageTeamsBody .ManageTeamsTable .ManageTeamsTableHeader > div:first-child > button {
+    min-height: 2.5rem;
+    border: none;
+}
+.ManageTeamsBody .ManageTeamsTable .ManageTeamsTableHeader > div:last-child {
+    /* width: 50%; */
+    margin: 0 0.25rem 0 0.25rem;
+}
+.ManageTeamsBody .ManageTeamsTable .css-30pzqk-MuiDataGrid-root,
+.ManageTeamsBody .ManageTeamsTable .css-1fvtguc {
+    color: inherit !important;
+}
+.ManageTeamsBody .ManageTeamsTable .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root,
+.ManageTeamsBody .ManageTeamsTable .css-zun73v {
+    color: inherit !important;
+}
+.ManageTeamsBody .ManageTeamsTable .css-rtrcn9-MuiTablePagination-root,
+.RemoveTableRowsContainer.css-whi0l6f {
+    color: inherit !important;
+}
+

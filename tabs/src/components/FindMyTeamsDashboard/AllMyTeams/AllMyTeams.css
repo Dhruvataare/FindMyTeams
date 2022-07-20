@@ -1,0 +1,8 @@
+.NoResultsMessage {
+    text-align: center;
+    margin: 2rem;
+}
+
+.mainDiv [role="progressbar"] {
+    margin: auto;
+}

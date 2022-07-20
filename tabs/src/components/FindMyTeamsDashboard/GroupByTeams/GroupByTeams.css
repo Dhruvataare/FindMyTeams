@@ -1,0 +1,10 @@
+.groupByContainer {
+    margin-right: 1rem;
+}
+.groupByContainer > .ui-dropdown > .ui-dropdown__container > .ui-dropdown__selected-items > .ui-button {
+    display: flex;
+    justify-content: left;
+}
+.groupByContainer > .ui-dropdown > .ui-dropdown__container > .ui-dropdown__selected-items{
+    padding-right: 0 !important;
+}

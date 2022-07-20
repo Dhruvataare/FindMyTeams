@@ -1,0 +1,94 @@
+.RemoveTableRowsContainer {
+    padding: 0!important;
+    width: 75% !important;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: rgb(187 187 187) 0px 2px 8px;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    height: fit-content;
+    overflow-y: hidden !important;
+}
+.RemoveTableRowsContainer > div{
+    margin-bottom: 0!important;
+    }
+.RemoveTableRowsContainer .RemoveTableRowsHeader {
+    /* background-color: rgb(98, 100, 167); */
+    min-height: 2rem;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+.RemoveTableRowsContainer > div:last-child .ui-text{
+    margin: 0.5rem 0 0 1rem;
+}
+.RemoveTableRowsContainer .RemoveTableRowsHeader .closeButton {
+    margin-right: 0.8rem;
+    color: inherit;
+}
+.RemoveTableRowsContainer .RemoveTableRowsHeader > div:first-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.RemoveTableRowsContainer .RemoveTableRowsHeader > div:first-child > span:first-child {
+    margin-left: 1rem;
+}
+
+.RemoveTableRowsContainer .RemoveTableRowsBody {
+    align-items: center;
+    /* margin: 1rem 0 0.5rem 0; */
+}
+.RemoveTableRowsContainer .RemoveTableRowsBody > div {
+    margin: 0.25rem 1rem;
+}
+
+.RemoveTableRowsContainer .RemoveTableRowsBody > div:nth-child(2) {
+    width: calc(100% - 2rem);
+    color: #828080;
+    margin-top: 0.5rem;
+}
+
+.RemoveTableRowsContainer .RemoveTableRowsBody .memberGrid > table > tfoot {
+    position: sticky;
+    bottom: 0;
+    background: white;
+}
+.RemoveTableRowsContainer .RemoveTableRowsBody .memberGrid .css-1pans1z-MuiDataGrid-virtualScroller {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.RemoveTableRowsContainer .RemoveTableRowsBody .memberGrid > div:first-child {
+    height: 25rem;
+}
+.RemoveTableRowsContainer .RemoveTableRowsBody .memberGrid > div:last-child {
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 700;
+}
+.RemoveTableRowsContainer .RemoveTableRowsFooter {
+    float: right;
+    display: flex;
+    margin: 1rem 0;
+}
+.RemoveTableRowsContainer > .RemoveTableRowsFooter button {
+    margin-right: 1rem;
+}
+.RemoveTableRowsContainer > .RemoveTableRowsBody > div:last-child > span > div:first-child {
+    color: rgb(116, 216, 116) !important;
+}
+.RemoveTableRowsContainer .css-30pzqk-MuiDataGrid-root,
+.RemoveTableRowsContainer .css-1fvtguc {
+    color: inherit !important;
+}
+.RemoveTableRowsContainer .css-rtrcn9-MuiTablePagination-root,
+.RemoveTableRowsContainer.css-whi0l6 {
+    color: inherit !important;
+}
+.RemoveTableRowsContainer .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root,
+.RemoveTableRowsContainer .css-zun73v {
+    color: inherit !important;
+}

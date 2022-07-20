@@ -1,0 +1,71 @@
+{
+    "SortByOptions":{
+        "teamAZ":"Team Name A to Z",
+        "teamZA":"Team Name Z to A"
+    },
+
+    "FilterOptions":{
+        "allMyTeams":"All My Teams",
+        "ownerOf":"Owner Of...",
+        "memberOf":"Member Of..."
+    },
+
+    "TeamsHeader":{
+        "fieldTeamName":"teamName",
+        "headerTeamName":"Team Name",
+        "fieldTeamDescription":"teamDescription",
+        "headerNameDescription":"Team Description",
+        "fieldcreatedDate":"created",
+        "headerCreatedDate":"Created Date",
+        "fieldMember":"member",
+        "headerMember":"Member",
+        "fieldRole":"role",
+        "headerRole":"User Role",
+        "fieldEmail":"headerEmail",
+        "headerEmail":"Email",
+        "fieldFileName":"headerFileName",
+        "headerFileName":"Name",
+        "fieldModifiedDate":"modifiedDate",
+        "headerModifiedDate":"Modified Date",
+        "fieldModifiedBy":"modifiedBy",
+        "headerModifiedBy":"Modified By",
+        "fieldTeamTags":"tags",
+        "headerTeamTags":"Tags"
+
+    },
+    "MemberRoles":{
+        "guest":"guest",
+        "owmer":"owner",
+        "member":"member"
+
+    },
+
+    "AlertMessages":{
+        "userAddedSuccess":"Users added successfully!!",
+        "userRemovedSuccess":"Users removed successfully!!",
+        "tagAddedSuccess":"Tags added successfully",
+        "tagRemovedSuccess":"Tags removed successfully"
+    },
+
+    "GraphUrl":"https://graph.microsoft.com",
+    "SearchUserPlaceHolder":"Search for users here..",
+    "SearchTeamsPlaceHolder":"Search for teams here..",
+    "SearchTagsPlaceHolder":"Search for tags here..",
+    "SearchFilesPlaceHolder":"Search for files here..",
+    "NoResultsMessage":"We couldn't find any matches.",
+    "EnterSearchTermPlaceHolder":"Enter your search terms here...",
+    "SearchForChannelsHere":"Search for channels here..",
+    "a11ySelectedItemsMessage":"Press Delete or Backspace to remove",
+    "BtnCancel":"Cancel",
+    "AddUsers":"Add Users",
+    "AddTags":"Add Tags",
+    "BtnConfirm":"Confirm",
+    "BtnClose":"Close",
+    "AddUserHeader":"Are you sure to add these users to selected teams?",
+    "RemoveUserHeader":"Are you sure to remove these users from selected teams?",
+    "AddTagHeader":"Are you sure to add these tags to selected teams?",
+    "RemoveTagHeader":"Are you sure to remove these tags from selected teams?",
+    "RemoveUsers":"Remove Users",
+    "YouAreTheOwner":"You're the owner of this team",
+    "YouAreTheMember":"You're a member of this team"
+}

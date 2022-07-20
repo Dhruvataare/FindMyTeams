@@ -1,0 +1,98 @@
+.AddTableRowsContainer {
+    padding: 0!important;
+    width: 75% !important;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: rgb(187 187 187) 0px 2px 8px;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    height: fit-content;
+    overflow-y: hidden !important;
+}
+.AddTableRowsContainer > div{
+margin-bottom: 0!important;
+}
+
+.AddTableRowsContainer .AddTableRowsHeader {
+    /* background-color: rgb(98, 100, 167); */
+    min-height: 2rem;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+
+.AddTableRowsContainer>div:last-child>.ui-text {
+    margin: 0.5rem 0 0 1rem;
+}
+
+.AddTableRowsContainer .AddTableRowsHeader .closeButton {
+    margin-right: 0.8rem;
+    color: inherit;
+}
+
+.AddTableRowsContainer .AddTableRowsHeader>div:first-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.AddTableRowsContainer .AddTableRowsHeader>div:first-child>span:first-child {
+    margin-left: 1rem;
+}
+
+.AddTableRowsContainer .AddTableRowsBody {
+    align-items: center;
+    /* margin: 1rem 0 0.5rem 0; */
+}
+
+.AddTableRowsContainer .AddTableRowsBody .memberGrid {
+    margin: 0.5rem 1rem;
+}
+
+.AddTableRowsContainer .AddTableRowsBody .memberGrid .css-1pans1z-MuiDataGrid-virtualScroller {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.AddTableRowsContainer .AddTableRowsBody .memberGrid>div:first-child {
+    margin-bottom: 0.5rem;
+}
+
+.AddTableRowsContainer .AddTableRowsBody>div {
+    margin: 0.25rem 1rem;
+}
+
+.AddTableRowsContainer .AddTableRowsBody>div:nth-child(2) {
+    width: calc(100% - 2rem);
+    color: #828080;
+    margin-top: 0.5rem;
+}
+
+.AddTableRowsContainer .AddTableRowsFooter {
+    float: right;
+    display: flex;
+    margin: 1rem 0;
+}
+
+.AddTableRowsContainer>.AddTableRowsFooter button {
+    margin-right: 1rem;
+}
+
+.AddTableRowsContainer>.AddTablePortalBody .userPillSelected>.ui-pill__action {
+    align-self: center;
+    font-weight: 600;
+    margin-left: 0.5em;
+}
+
+.AddTableRowsContainer .css-30pzqk-MuiDataGrid-root,
+.AddTableRowsContainer .css-1fvtguc {
+    color: inherit !important;
+}
+
+.AddTableRowsContainer .css-rtrcn9-MuiTablePagination-root,
+.AddTableRowsContainer.css-whi0l6 {
+    color: inherit !important;
+}

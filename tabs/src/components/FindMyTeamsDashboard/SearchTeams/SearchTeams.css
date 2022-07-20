@@ -1,0 +1,24 @@
+.searchTeamsContainer {
+    width: 600px;
+    
+}
+.searchInput {
+    border-color:rgb(18, 18, 97);
+    border: 2px;
+}
+
+.searchInput input {
+    /* background: #fff; */
+    border: .1rem solid #ccc;
+    border-radius: .35rem;
+}
+
+/* .mb .searchInput input {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #666;
+} */
+
+.searchInput input:focus {
+    border: .1rem solid #5b5fc7;
+}
+

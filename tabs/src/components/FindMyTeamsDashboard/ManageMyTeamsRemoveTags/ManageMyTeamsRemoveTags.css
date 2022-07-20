@@ -1,0 +1,10 @@
+.RemoveTableRowsContainer .RemoveTableRowsBody .tagsContainer>div:first-child {
+    max-height: 25rem;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.NoTagResultsMessage,
+.NoResultsMessage1{
+    margin: 2rem auto;
+}

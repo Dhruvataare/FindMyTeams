@@ -1,0 +1,137 @@
+.UserPortalContainer {
+    padding: 0!important;
+    width: 75% !important;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: rgb(187 187 187) 0px 2px 8px;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    height: fit-content;
+    overflow-y: hidden !important;
+}
+.UserPortalContainer > div{
+    margin-bottom: 0!important;
+    }
+.UserPortalContainer .UserPortalHeader {
+    min-height: 3rem;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+/* .UserPortalContainer .UserPortalHeader .teamName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 1.2rem;
+    width: 100%;
+} */
+.UserPortalContainer .UserPortalHeader .closeButton {
+    margin-right: 0.8rem;
+    color: inherit;
+}
+.UserPortalContainer .UserPortalHeader > div:first-child {
+    margin-left: 1rem;
+    width: 100%;
+}
+.UserPortalContainer .UserPortalHeader > div:first-child > span {
+    margin-top: 0.25rem;
+}
+.UserPortalContainer .UserPortalBody {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.5rem 0;
+}
+.UserPortalContainer .UserPortalBody > div:first-child,
+.UserPortalContainer .UserPortalBody > div:last-child {
+    margin: 0 1rem;
+}
+.UserPortalContainer .UserPortalBody > div:last-child {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 1.2rem;
+}
+.UserPortalContainer .UserPortalBody > div:nth-child(2) {
+    width: 55%;
+    font-size: 1.2em;
+    color: #666;
+}
+.UserPortalContainer .UserPortalBody input {
+    background: #f5f5f5;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.35rem;
+}
+.UserPortalContainer .UserPortalBody input:focus {
+    border-color: #5b5fc7;
+}
+.UserPortalContainer .UserPortalTable .NoResultsMessage {
+    text-align: center;
+    margin: 2rem;
+}
+.UserPortalContainer .UserPortalTable .css-1pans1z-MuiDataGrid-virtualScroller {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.UserPortalContainer .UserPortalTable a {
+    color: #5b5fc7;
+    text-decoration: none;
+}
+.UserPortalContainer .UserList {
+    margin: 0.5rem 2rem;
+}
+.UserPortalContainer .UserList div {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.UserPortalContainer .css-30pzqk-MuiDataGrid-root,
+.UserPortalContainer .css-1fvtguc {
+    color: inherit !important;
+}
+.UserPortalContainer .css-rtrcn9-MuiTablePagination-root,
+.UserPortalContainer.css-whi0l6 {
+    color: inherit !important;
+}
+/* -------------------------------------------------- */
+/* .UserPortalContainer:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.PortalContent {
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+.PortalContent {
+    /* padding: 20px 20px 20px 20px; */
+    -webkit-animation-name: modal-animation;
+    -webkit-animation-duration: 0.5s;
+    animation-name: modal-animation;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes modal-animation {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes modal-animation {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,29 @@
+.ManageTeamsBody .ManageMenuContainer {
+    width: 20%;
+    background-color: inherit;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(224, 224, 224, 1);
+    margin-right: 2rem;
+    height: calc(100vh - 7rem);
+}
+.ManageTeamsBody .ManageMenuContainer .ManageMenuHeader {
+    min-height: 2.5rem;
+    padding: 0;
+    border-radius: 0.6rem 0.6rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.ManageTeamsBody .ManageMenuContainer .ManageMenuHeader > div:first-child {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.ManageTeamsBody .ManageMenuContainer .ManageMenuHeader > div:first-child > div {
+    margin-right: 0.5rem;
+}
+.ManageTeamsBody .ManageMenuContainer .ManageMenuContent {
+    height: auto;
+}
+.ManageTeamsBody .ManageMenuContainer .ManageMenuContent > ul {
+    padding: 0;
+}

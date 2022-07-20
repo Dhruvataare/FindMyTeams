@@ -1,0 +1,42 @@
+{
+    "solution": {
+        "teamsAppTenantId": "79419450-8f5d-4fe0-a38a-195f461a9500",
+        "subscriptionId": "064e0168-8ba2-42f4-a5fc-af5bbe0a4664",
+        "subscriptionName": "Integration Azure Subscription",
+        "tenantId": "79419450-8f5d-4fe0-a38a-195f461a9500",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "find_my_teams-dev-rg",
+        "location": "East US 2",
+        "resourceNameSuffix": "8f592b",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "79419450-8f5d-4fe0-a38a-195f461a9500",
+        "teamsAppId": "43924368-5e4f-4ad2-8c8b-6c499c194efd",
+        "teamsAppUpdatedAt": 1658231451777
+    },
+    "fx-resource-identity": {
+        "identityName": "findmyteamdev035adc",
+        "identityResourceId": "/subscriptions/064e0168-8ba2-42f4-a5fc-af5bbe0a4664/resourceGroups/find_my_teams-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/findmyteamdev035adc",
+        "identityClientId": "7f590c31-1758-4368-9fec-4c2c884283cb"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "712ccbe0-1206-4f1b-962f-1ca729cd7cd8",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "e2bab9e8-1e6c-4c38-8503-89ab198cefd4",
+        "oauth2PermissionScopeId": "27439b4c-e2b6-47df-becf-404173919ce6",
+        "tenantId": "79419450-8f5d-4fe0-a38a-195f461a9500",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/79419450-8f5d-4fe0-a38a-195f461a9500",
+        "applicationIdUris": "api://findmyteamdev035adctab.z20.web.core.windows.net/712ccbe0-1206-4f1b-962f-1ca729cd7cd8",
+        "frontendEndpoint": "https://findmyteamdev035adctab.z20.web.core.windows.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "findmyteamdev035adctab.z20.web.core.windows.net",
+        "endpoint": "https://findmyteamdev035adctab.z20.web.core.windows.net",
+        "indexPath": "/index.html#",
+        "storageResourceId": "/subscriptions/064e0168-8ba2-42f4-a5fc-af5bbe0a4664/resourceGroups/find_my_teams-dev-rg/providers/Microsoft.Storage/storageAccounts/findmyteamdev035adctab"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}

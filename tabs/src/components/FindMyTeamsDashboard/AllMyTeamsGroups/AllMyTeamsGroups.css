@@ -1,0 +1,49 @@
+.teamsGroups,
+.teamsGroupsRows {
+    overflow: scroll;
+    display: flex !important;
+    justify-content: flex-start !important;
+    height: calc(100vh - 4rem);
+}
+
+.teamsGroupsColumns {
+    overflow-y: hidden;
+}
+
+.teamsGroupsRows {
+    flex-direction: column;
+}
+
+.teamsGroups>div>.group,
+.teamsGroupsRows>div>.group {
+    height: -webkit-fill-available;
+}
+
+.teamsGroups>div>.group>.tagTitle {
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0;
+}
+
+.teamsGroups>div>.group>.tileColumnContainer {
+    overflow-y: scroll;
+    height: -webkit-fill-available;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    
+}
+
+.teamsGroups>div>.group>.columnTop {
+    margin-top: 4.5rem;
+}
+
+.teamsGroups>div>div>.groupDivider {
+    flex-direction: column;
+    width: 5px;
+    margin-left: 1.5rem;
+}

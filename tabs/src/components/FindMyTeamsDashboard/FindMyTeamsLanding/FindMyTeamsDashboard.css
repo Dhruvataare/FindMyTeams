@@ -1,0 +1,82 @@
+.narrow > .sections {
+  max-width: calc(100vw - 4rem);
+  margin: 1rem auto;
+}
+.narrow > .topNav > ul,
+.groupByMenu > ul {
+  width: 100%;
+  justify-content: left;
+  border-bottom: none;
+}
+.groupByMenu > ul {
+  margin-top: 0.35rem;
+}
+
+.narrow > .topNav > ul > li,
+.groupByMenu > ul > li {
+  margin: 0 1.5rem 0 0;
+  padding: 0;
+  background: inherit !important;
+  height: 1.8rem;
+}
+.groupByMenu > ul > li {
+  margin: 0 0.5rem 0 0;
+}
+.narrow > .topNav > ul > li > a,
+.groupByMenu > ul > li > a {
+  font-size: 0.9rem;
+  height: 1.8rem;
+  border-bottom-color: #5b5fc7;
+  border-width: 0.2rem;
+}
+
+.narrow > .topNav > ul > li > a:hover {
+  border-width: 0.2rem;
+}
+.topNav {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  /* background-color: rgb(245 245 245) !important; */
+}
+
+.sections > *,
+.topNav > * {
+  margin: 1rem auto 0 auto;
+}
+.narrow .default1 {
+  background-color: rgb(246 246 246) !important;
+}
+.narrow .dark1 {
+  /* background-color: rgb(45, 44, 44) !important; */
+  background-color: "";
+}
+.narrow .contrast1 {
+  /* background-color: rgb(0, 0, 0) !important; */
+  background-color: "";
+}
+.topNav > div {
+  display: flex;
+  margin: 1rem 0 0;
+  justify-content: space-between;
+}
+
+.topNav > div > div {
+  display: flex;
+}
+
+.topNav > div > div:nth-child(2) {
+  margin-left: 2rem;
+}
+.ui-provider .ui-divider {
+  padding-top: 0;
+}
+
+.ui-provider .ui-divider::before {
+  background: #ddd;
+  height: 1px;
+}
+
+/* .mb.ui-provider .ui-divider::before {
+  background: #666;
+} */

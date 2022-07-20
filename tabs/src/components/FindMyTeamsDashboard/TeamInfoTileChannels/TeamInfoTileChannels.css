@@ -1,0 +1,95 @@
+.ChannelsPortalContainer {
+    padding: 0!important;
+    width: 75% !important;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: rgb(187 187 187) 0px 2px 8px;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    height: fit-content;
+    overflow-y: hidden !important;
+}
+.ChannelsPortalContainer > div{
+    margin-bottom: 0!important;
+    }
+.ChannelsPortalContainer .ChannelsPortalHeader {
+    min-height: 3rem;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+/* .ChannelsPortalContainer .ChannelsPortalHeader .teamName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 1.2rem;
+    width: 100%;
+}*/
+.ChannelsPortalContainer .ChannelsPortalHeader .closeButton {
+    margin-right: 0.8rem;
+    color: inherit;
+}
+.ChannelsPortalContainer .ChannelsPortalHeader > div:first-child {
+    margin-left: 1rem;
+    width: 100%;
+}
+.ChannelsPortalContainer .ChannelsPortalHeader > div:first-child > span {
+    margin-top: 0.25rem;
+}
+.ChannelsPortalContainer .ChannelsPortalBody {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.5rem 0;
+}
+.ChannelsPortalContainer .ChannelsPortalBody > div:first-child,
+.ChannelsPortalContainer .ChannelsPortalBody > div:last-child {
+    margin: 0 1rem;
+}
+.ChannelsPortalContainer .ChannelsPortalBody > div:last-child {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 1.2rem;
+}
+.ChannelsPortalContainer .ChannelsPortalBody > div:nth-child(2) {
+    width: 55%;
+    font-size: 1.2em;
+    color: #666;
+}
+.ChannelsPortalContainer .ChannelsPortalBody input {
+    background: #f5f5f5;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.35rem;
+}
+.ChannelsPortalContainer .ChannelsPortalBody input:focus {
+    border-color: #5b5fc7;
+}
+.ChannelsPortalContainer .ChannelsPortalTable .NoResultsMessage {
+    text-align: center;
+    margin: 2rem;
+}
+.ChannelsPortalContainer .ChannelsPortalTable .css-1pans1z-MuiDataGrid-virtualScroller {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ChannelsPortalContainer .ChannelsPortalTable a {
+    color: #5b5fc7;
+    text-decoration: none;
+}
+.ChannelsPortalContainer .channelsList {
+    margin: 0.5rem 2rem;
+}
+.ChannelsPortalContainer .channelsList div {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.ChannelsPortalContainer .css-30pzqk-MuiDataGrid-root,
+.ChannelsPortalContainer .css-1fvtguc {
+    color: inherit !important;
+}
+.ChannelsPortalContainer .css-rtrcn9-MuiTablePagination-root,
+.ChannelsPortalContainer.css-whi0l6 {
+    color: inherit !important;
+}

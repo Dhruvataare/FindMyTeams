@@ -1,0 +1,102 @@
+.ChannelDocumentsPortalContainer {
+    padding: 0!important;
+    width: 75% !important;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: rgb(187 187 187) 0px 2px 8px;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    height: fit-content;
+    overflow-y: hidden !important;
+}
+.ChannelDocumentsPortalContainer > div{
+    margin-bottom: 0!important;
+    }
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalHeader {
+    /* background-color: #0078d4; */
+    min-height: 3rem;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+/* .ChannelDocumentsPortalContainer .ChannelDocumentsPortalHeader .teamName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 1.2rem;
+    width: 100%;
+} */
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalHeader .closeButton {
+    margin-right: .8rem;
+    color: inherit;
+}
+.modalIcon {
+    margin-right:.5rem !important;
+}
+.modalIcon svg {
+    height: 20px;
+    width: auto;
+    /* color: #5b5fc7; */
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalHeader > div:first-child {
+    margin-left: 1rem;
+    width: 100%;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalHeader > div:first-child > span {
+    margin-top: 0.25rem;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.5rem 0;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody > div:first-child,
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody > div:last-child {
+    margin: 0 1rem;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody > div:last-child {
+    display: contents;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody > div:last-child > div,
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody > div:last-child > button {
+    margin-right:1rem;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody > div:nth-child(2) {
+    width: calc(100vw - 1rem);
+    font-size: 1.2em;
+    color: #666;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody input {
+    background: #f5f5f5;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.35rem;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalBody input:focus {
+    border-color: #5b5fc7;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalTable .NoResultsMessage {
+    text-align: center;
+    margin: 2rem;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalTable .css-1pans1z-MuiDataGrid-virtualScroller {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalTable a {
+    color: #5b5fc7;
+    text-decoration: none;
+}
+
+.ChannelDocumentsPortalContainer .ChannelDocumentsPortalTable .MuiDataGrid-columnHeaderTitleContainer {
+    padding: 0;
+}
+.ChannelDocumentsPortalContainer .css-30pzqk-MuiDataGrid-root,
+.ChannelDocumentsPortalContainer .css-1fvtguc {
+    color: inherit !important;
+}
+.ChannelDocumentsPortalContainer .css-rtrcn9-MuiTablePagination-root,
+.ChannelDocumentsPortalContainer.css-whi0l6 {
+    color: inherit !important;
+}
