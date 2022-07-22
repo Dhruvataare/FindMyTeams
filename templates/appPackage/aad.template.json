@@ -21,7 +21,87 @@
             "resourceAppId": "Microsoft Graph",
             "resourceAccess": [
                 {
+                    "id": "User.Read.All",
+                    "type": "Scope"
+                },
+                {
                     "id": "User.Read",
+                    "type": "Scope"
+                },
+                {
+                    "id": "User.ReadWrite.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Directory.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Directory.ReadWrite.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Directory.AccessAsUser.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Team.ReadBasic.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TeamSettings.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TeamSettings.ReadWrite.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Channel.ReadBasic.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "ChannelSettings.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "ChannelSettings.ReadWrite.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Group.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Group.ReadWrite.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "Directory.AccessAsUser.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "GroupMember.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TeamMember.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TeamMember.ReadWrite.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TeamMember.ReadWriteNonOwnerRole.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TermStore.Read.All",
+                    "type": "Scope"
+                },
+                {
+                    "id": "TermStore.ReadWrite.All",
                     "type": "Scope"
                 }
             ]
