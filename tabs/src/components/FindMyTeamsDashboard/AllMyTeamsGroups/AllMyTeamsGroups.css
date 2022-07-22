@@ -39,7 +39,8 @@
 }
 
 .teamsGroups>div>.group>.columnTop {
-    margin-top: 4.5rem;
+    /* margin-top: 4.5rem; */
+    margin-bottom: 4rem;
 }
 
 .teamsGroups>div>div>.groupDivider {

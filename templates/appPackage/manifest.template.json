@@ -1,11 +1,11 @@
 {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
     "manifestVersion": "1.13",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "id": "{{state.fx-resource-appstudio.teamsAppId}}",
     "packageName": "com.microsoft.teams.extension",
     "developer": {
-        "name": "Teams App, Inc.",
+        "name": "Withum Digital",
         "websiteUrl": "https://www.withum.com",
         "privacyUrl": "https://www.withum.com/wp-content/uploads/2017/02/Privacy-Policy_Withum.pdf",
         "termsOfUseUrl": "https://www.withum.com/terms-of-use/"

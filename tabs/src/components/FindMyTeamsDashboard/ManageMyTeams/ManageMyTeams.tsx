@@ -66,6 +66,7 @@ export function ManageMyTeams(props: { data: any, allTags: any, loading: any, lo
                         <ManageMyTeamsMenu
                             data={data}
                             localStorageLoading={localStorageLoading}
+                            selectedMenuOption={selectedMenuOption}
                             getSelectedMenuOption={getSelectedMenuOption}
                         />
                     </div>

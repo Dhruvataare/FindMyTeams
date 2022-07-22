@@ -35,7 +35,7 @@ export function ManageMyTeamsAddTableRows(props: { teamsData: any, manageMyTeams
         items: [
             { field: constants.TeamsHeader.fieldMember, headerName: constants.TeamsHeader.headerMember, flex: 1 },
             { field: constants.TeamsHeader.fieldTeamName, headerName: constants.TeamsHeader.headerTeamName, flex: 1 },
-            { field: constants.TeamsHeader.fieldRole, headerName: constants.TeamsHeader.headerRole, flex: 1 },
+            { field: constants.TeamsHeader.fieldRole, headerName: constants.TeamsHeader.headerRole, width:120 },
             {
                 field: constants.TeamsHeader.fieldEmail, headerName: constants.TeamsHeader.headerEmail, flex: 1, sortable: false, renderCell: (user: GridRenderCellParams<any>) => {
                     return <a target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "inherit" }} title={user.value.email} href={`mailto:${user.value.email}`}>{user.value.email}</a>
@@ -184,7 +184,7 @@ export function ManageMyTeamsAddTableRows(props: { teamsData: any, manageMyTeams
                         <div className="memberGrid">
                             <Text content="List of existing members of selected teams." />
                             {membersLoading ?
-                                <Skeleton animation="wave">
+                                <Skeleton animation="pulse">
                                     <Skeleton.Line height="3rem" />
                                     <Skeleton.Line height="3rem" />
                                     <Skeleton.Line height="3rem" />
@@ -196,7 +196,7 @@ export function ManageMyTeamsAddTableRows(props: { teamsData: any, manageMyTeams
                                 :
                                 <div style={{ width: '100%', height: 370 }}>
                                     <DataGrid
-                                        rows={members === false ? allmembersData : members}
+                                        rows={members === false || members.length === 0 ? allmembersData : members}
                                         columns={membersheader.items}
                                         pageSize={pageSize}
                                         disableColumnMenu
