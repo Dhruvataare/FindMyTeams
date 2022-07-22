@@ -5,7 +5,7 @@
     "id": "{{state.fx-resource-appstudio.teamsAppId}}",
     "packageName": "com.microsoft.teams.extension",
     "developer": {
-        "name": "Teams App, Inc.",
+        "name": "Find My Teams",
         "websiteUrl": "https://www.withum.com",
         "privacyUrl": "https://www.withum.com/wp-content/uploads/2017/02/Privacy-Policy_Withum.pdf",
         "termsOfUseUrl": "https://www.withum.com/terms-of-use/"
