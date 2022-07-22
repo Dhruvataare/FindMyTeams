@@ -201,7 +201,7 @@ const _renderUserLabel = (handleSelectedTags: any, isTagsLoaded: boolean, tagNam
                 isTagsLoaded ?
                     arr.map((element: any) => {
                         return (
-                            <Skeleton animation="wave" style={{ width: "7rem", margin: "0.5rem" }}>
+                            <Skeleton animation="pulse" style={{ width: "7rem", margin: "0.5rem" }}>
                                 <div style={{ alignItems: "center", display: "flex", width: "7rem" }}>
                                     <Skeleton.Avatar size="smallest" />
                                     <Skeleton.Text size="smaller" style={{ width: "5rem", marginLeft: "0.5rem" }} />

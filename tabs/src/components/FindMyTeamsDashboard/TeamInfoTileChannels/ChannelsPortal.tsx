@@ -111,7 +111,7 @@ export function ChannelsPortal(props: { teamData?: any, getIsPopupOpen?: any, to
                 </Flex>
                 <div className="ChannelsPortalTable">
                     {loading ?
-                        <Skeleton animation="wave" style={{ marginTop: "1rem" }}>
+                        <Skeleton animation="pulse" style={{ marginTop: "1rem" }}>
                             <Skeleton.Line height="3rem" />
                             <Skeleton.Line height="3rem" />
                             <Skeleton.Line height="3rem" />

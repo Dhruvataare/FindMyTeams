@@ -1,6 +1,6 @@
 // https://fluentsite.z22.web.core.windows.net/quick-start
 import React, { useEffect, useState } from "react";
-import { Provider, teamsTheme } from "@fluentui/react-northstar";
+import { Provider, teamsTheme,Loader } from "@fluentui/react-northstar";
 import { HashRouter as Router, Route } from "react-router-dom";
 import { useTeamsFx } from "@microsoft/teamsfx-react";
 import "./App.css";
@@ -28,7 +28,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (dashboardLocalStorageData.teamMembersDataLength == dashboardLocalStorageData.teamMembersData.length) {
+    if (dashboardLocalStorageData.teamMembersDataLength === dashboardLocalStorageData.teamMembersData.length) {
       setLocalStorageLoading(false);
     }
     else {
@@ -40,7 +40,9 @@ export default function App() {
     <TeamsFxContext.Provider value={{ theme, themeString, teamsfx }}>
       <Provider theme={theme || teamsTheme} styles={{ backgroundColor: "#eeeeee" }}>
         <Router>
-          {
+          {allTeamsLoading ? (
+            <Loader style={{ margin: 100 }} />
+          ) : (
             <>
               <Route
                 exact
@@ -66,7 +68,7 @@ export default function App() {
                 />}
               />
             </>
-          }
+          )}
         </Router>
       </Provider>
     </TeamsFxContext.Provider>

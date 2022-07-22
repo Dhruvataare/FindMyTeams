@@ -184,7 +184,7 @@ export function ManageMyTeamsAddTableRows(props: { teamsData: any, manageMyTeams
                         <div className="memberGrid">
                             <Text content="List of existing members of selected teams." />
                             {membersLoading ?
-                                <Skeleton animation="wave">
+                                <Skeleton animation="pulse">
                                     <Skeleton.Line height="3rem" />
                                     <Skeleton.Line height="3rem" />
                                     <Skeleton.Line height="3rem" />

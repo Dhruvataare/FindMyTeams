@@ -160,7 +160,7 @@ export function ManageMyTeamsRemoveTableRows(props: { teamsData: any, manageMyTe
                         />
                         <div className="memberGrid">
                             {membersLoading ?
-                                <Skeleton animation="wave">
+                                <Skeleton animation="pulse">
                                     <Skeleton.Line height="3rem" />
                                     <Skeleton.Line height="3rem" />
                                     <Skeleton.Line height="3rem" />

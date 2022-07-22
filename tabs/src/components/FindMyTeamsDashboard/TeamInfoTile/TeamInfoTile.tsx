@@ -17,7 +17,7 @@ export function TeamInfoTile(props: { allTeamsData?: any, loading?: boolean, loc
           arr.map((element: any) => {
             return (
               <div className="teamInfoTile">
-                <Skeleton animation="wave">
+                <Skeleton animation="pulse">
                   <Flex gap="gap.small" padding="padding.medium">
                     <Skeleton.Shape round width="32px" height="32px" />
                     <div>
@@ -26,13 +26,13 @@ export function TeamInfoTile(props: { allTeamsData?: any, loading?: boolean, loc
                     </div>
                   </Flex>
                 </Skeleton>
-                <Skeleton animation="wave">
+                <Skeleton animation="pulse">
                   <Flex column gap="gap.small">
                     <Skeleton.Shape width="100%" />
                   </Flex>
                 </Skeleton>
                 <div className="footer">
-                  <Skeleton animation="wave">
+                  <Skeleton animation="pulse">
                     <Skeleton.Shape height="1rem" width="100%" />
                   </Skeleton>
                 </div>
