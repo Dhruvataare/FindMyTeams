@@ -171,7 +171,7 @@ export function ManageMyTeamsRemoveTableRows(props: { teamsData: any, manageMyTe
                                     <Skeleton.Line height="3rem" />
                                 </Skeleton>
                                 : isSearchResults
-                                    ? <RemoveTableRowsGrid getRemoveMembersData={getRemoveMembersData} header={membersheader} rows={members === false ? allmembersData : members} />
+                                    ? <RemoveTableRowsGrid getRemoveMembersData={getRemoveMembersData} header={membersheader} rows={members === false || members.length === 0 ? allmembersData : members} />
                                     : <div className="NoResultsMessage">Oops!! No Results Found.</div>
                             }
                         </div>

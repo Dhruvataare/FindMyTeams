@@ -27,3 +27,8 @@
 .ManageTeamsBody .ManageMenuContainer .ManageMenuContent > ul {
     padding: 0;
 }
+.ManageTeamsBody .ManageMenuContainer .ManageMenuContentDescription{
+    margin: 1rem;
+    font-size: 0.9em;
+    font-weight: 600;
+}

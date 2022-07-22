@@ -1,9 +1,10 @@
 import './ManageMyTeamsMenu.css';
-import { Segment, Text, Menu, Provider, Flex, Skeleton } from "@fluentui/react-northstar";
+import { Segment, Text, Menu, Provider, Flex, Skeleton, tabListBehavior } from "@fluentui/react-northstar";
 import { OptionsIcon } from '@fluentui/react-icons-northstar';
+import constants from "../../Services/lib/constants.json";
 
-export function ManageMyTeamsMenu(props: { data: any, localStorageLoading: boolean, getSelectedMenuOption: any }) {
-    const { data, localStorageLoading, getSelectedMenuOption } = { ...props }
+export function ManageMyTeamsMenu(props: { data: any, localStorageLoading: boolean, selectedMenuOption: any, getSelectedMenuOption: any }) {
+    const { data, localStorageLoading, selectedMenuOption, getSelectedMenuOption } = { ...props }
 
     const items = [
         {
@@ -37,17 +38,26 @@ export function ManageMyTeamsMenu(props: { data: any, localStorageLoading: boole
                     </Provider>
                 </div>
                 : data &&
-                <div className="ManageMenuContent">
-                    <Menu
-                        defaultActiveIndex={0}
-                        items={items}
-                        vertical
-                        fluid
-                        primary
-                        onItemClick={onManageOptionChange}
-                        pointing="start"
-                    />
-                </div>
+                <>
+                    <div className="ManageMenuContent">
+                        <Menu
+                            defaultActiveIndex={0}
+                            items={items}
+                            vertical
+                            fluid
+                            primary
+                            onItemClick={onManageOptionChange}
+                            pointing="start"
+                            accessibility={tabListBehavior}
+                        />
+                    </div>
+                    <div className="ManageMenuContentDescription">
+                        {selectedMenuOption === "Membership" ?
+                            <div>{constants.MenuContentDescription.Membership}</div>
+                            : <div>{constants.MenuContentDescription.Tags}</div>
+                        }
+                    </div>
+                </>
             }
         </>
     );

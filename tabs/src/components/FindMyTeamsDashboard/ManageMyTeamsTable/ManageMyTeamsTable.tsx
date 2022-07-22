@@ -45,15 +45,17 @@ export function ManageMyTeamsTable(props: {
     }
   }, [teamsSearchValue, localStorageLoading]);
 
+  ////uncheck all rows on change of 'selectedMenuOption' ////
   useEffect(() => {
     let headerContainer = Array.from(document.getElementsByClassName('MuiDataGrid-columnHeaderTitleContainer') as HTMLCollectionOf<HTMLElement>);
     if (headerContainer.length > 0) {
-      let input = headerContainer[0]?.children[0].children[0] as HTMLInputElement;
+      let input = headerContainer[0].children[0].children[0].firstElementChild as HTMLInputElement;
       let isChecked = input.checked;
       if (isChecked === true) {
         input.click();
       }
     }
+    getSelectedRowData([]);
   }, [selectedMenuOption]);
 
   const onKeyPress = (e: any) => {
